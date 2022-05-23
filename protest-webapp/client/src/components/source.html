@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link  rel= "stylesheet" href="../src/bootstrap.css"/>
+    <link  rel= "stylesheet" href="../src/custom-style.css"/>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <title>1033 & 2020 || Home</title>
+  </head>
+  <style>
+    body {
+        background-image: url("/home_background.jpg");
+        min-width : 100%;
+        background-size: 100%;
+        background-repeat:no-repeat;
+        overflow-x: hidden;
+        background-repeat: repeat-y;
+
+    }
+  </style>
+  
+  <body>
+    <div id="root"></div>
+    <div className="Source">
+      <PageNavbar active="source" />
+      <div class="jumbotron">
+        <div class="text-center">
+          The sources of our data are three pubically available Data sets:
+        </div>
+        <div class="text-center">
+          1. American Community Survey (ACS)
+          • https://www.kaggle.com/muonneutrino/us-census-demographic-data
+          • The ACS is an ongoing demographics survey conducted by the U.S. Census Bureau. It gathers information annually from 52 U.S. states and territories. The data here is taken from the DP03 and DP05 tables of the 2017 ACS 5-year estimates.
+          • 3220 rows, 37 columns; 0.6MB; 2017; statistics: 3220 counties, 324473330 people
+        </div>
+        <div class="text-center">
+          2. General Services Administration (GSA) 1033 Program
+          • https://data.world/datasets/1033-program
+          • This CSV file represents $1.5B of ~$4.8B distributed by the GSA's 1033 Program, for years 2006-2014. All manner of equipment is here from helicopters to rifles, with prices, nomenclature, and NSNs. The 1033 Program allows local and state law enforcement agencies to receive surplus military equipment from the Department of Defense at little or no cost. Note that the police departments do not pay for the value of the gear, just the shipping and storage en route.
+          • 243492 rows, 12 columns; 22MB; 2006–2014
+        </div>
+        <div class="text-center">
+          3. US Crisis Monitor
+          • https://acleddata.com/special-projects/us-crisis-monitor/
+          • “ACLED systematically collects the dates, actors, locations, fatalities, and types of all political violence and demonstration events in the US using a methodology consistent with our global coverage of conflict and disorder around the world.”
+          • 17675 rows, 28 columns; 3MB; 2020/05/24–2020/11/21; event breakdown: 16331 protests, 753 riots, 539 strategic developments, 42 violence against civilians, 5 battles
+        </div>
+      </div>
+    <!--
+    <img src='./us-map.png' class="rounded mx-auto d-block" alt="States with Protests during 2020"></img>
+    -->
+    <!--
+    <div class="bs-example">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top mt-5">
+            <a href="#" class="navbar-brand">1033 & 2020</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                  <a href="" class="nav-item nav-link active">Home</a>
+                  <a href="../src/components/comparisons" class="nav-item nav-link ">County Level</a>
+                  <a href="../src/components/state" class="nav-item nav-link">State Level</a>
+                  <a href="../src/components/race.html" class="nav-item nav-link">Race</a>
+                  <a href="../src/ii.html" class="nav-item nav-link">Income Inequality</a>
+                </div>
+                <div class="navbar-nav"
+              </div>
+
+          </div>
+          <Row>
+            
+              <div class = "text-right navbar-nav ml-auto">
+              <a href="../src/components/state.html" class="nav-item nav-link">About</a>
+              <a href="../src/components/state.html" class="nav-item nav-link">Source</a>
+            </div>
+          </Row>
+        </nav>
+        -->
+        <!--
+            <Row>
+              <br/>
+              <div class = "text-center">
+                <h3 class="display-3 font-weight-bold text-white">Protest Data in the United States in 2020</h3>
+            </div>
+          </Row>
+        -->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+

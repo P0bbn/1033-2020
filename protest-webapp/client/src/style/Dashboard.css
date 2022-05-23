@@ -1,0 +1,132 @@
+.buttons-container {
+  /* margin: 10px 0; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  /* border-bottom: 1px solid #ddd; */
+}
+
+.buttons-container .buttons {
+  flex: 1 0 20%;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  opacity: 0.9;
+}
+
+.very-transparent {
+  opacity: 0.2;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.opaque-jum {
+  opacity: .95;
+}
+
+.buttons-container .buttons:hover {
+  background-color: #ddd;
+  opacity: 0.7;
+  font-weight: bold;
+
+}
+
+.query-container .query-header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.results-container {
+  overflow-y: overlay;
+  max-height: 400px;
+}
+
+.results-container .query {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 30px;
+
+}
+
+.query .title, .query-header .header-lg {
+  flex: 1 0 60px;
+
+}
+
+.query-header .header, .query .result, .query .votes {
+  flex: 1 0 60px;
+
+}
+
+.query-header .title {
+  flex: 1 0 60px;
+
+}
+
+.display-5 {
+  font-size: 1.7rem;
+  font-weight: 200;
+  line-height: 1.2;
+  margin-top: -35px;
+  margin-bottom: 20px;
+}
+
+.display-6 {
+  font-size: 1.9rem;
+  font-weight: 450;
+  line-height: 1.2;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.display-7 {
+  font-size: 1.2rem;
+  font-weight: 350;
+  line-height: 1.2;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.bolded {
+  font-weight: 500;
+}
+
+.outline-this {
+  -webkit-text-stroke: 0.25px blue;
+}
+
+.double-outline {
+  -webkit-text-stroke: 1.6px black;
+}
+
+.chart-title {
+  vertical-align:middle;
+  text-align: center;
+}
+
+.hide {
+  list-style-type: none;
+}
+
+.more-height {
+  line-height: 1.2;
+
+}
+
+.slightly {
+  font-size: 0.9rem;
+}
+
+.btn-mine {
+  border: 1px solid;
+}

@@ -1,0 +1,61 @@
+p-uppal -- 8cb18ad7 -- Wed Dec 16 17:55:31 2020 -0500 :  minor instructions edit
+p-uppal -- eff4e05f -- Wed Dec 16 17:28:06 2020 -0500 :  cleaning up
+p-uppal -- 0134ebe6 -- Wed Dec 16 16:40:52 2020 -0500 :  button text change
+p-uppal -- 04ea033b -- Wed Dec 16 16:38:40 2020 -0500 :  fixed all issues on Race page. please finish income inequality. -- puneet
+Robby -- 9f252904 -- Wed Dec 16 13:18:10 2020 -0600 :  Merge branch 'main' of https://github.com/P0bbn/550-Project into main
+Robby -- 7b80da7d -- Wed Dec 16 13:17:58 2020 -0600 :  Test
+p-uppal -- c06ef9a6 -- Tue Dec 15 19:56:02 2020 -0500 :  corrected race pages pagenavbar in render so that it highlights upon clicking
+p-uppal -- 3fcb415c -- Tue Dec 15 19:54:08 2020 -0500 :  added notes through hover text in second states table
+Robby -- c775db97 -- Tue Dec 15 18:40:44 2020 -0600 :  Merge branch 'main' of https://github.com/P0bbn/550-Project into main
+Robby -- 7d40a143 -- Tue Dec 15 18:40:33 2020 -0600 :  Updated routes to include Race page
+Robby -- fe5c46e8 -- Tue Dec 15 18:36:23 2020 -0600 :  Adjusted query addresses for Race page
+p-uppal -- 8a1e2f09 -- Tue Dec 15 18:58:56 2020 -0500 :  adding the instructions to use the app. tested it without node folders.
+ksve -- c1127396 -- Tue Dec 15 13:00:59 2020 -0500 :  Minor updates
+ksve -- d63d3f5b -- Tue Dec 15 01:55:18 2020 -0500 :  Update analysis
+p-uppal -- 4d04e9f6 -- Mon Dec 14 23:52:30 2020 -0500 :  Merge branch 'main' of https://github.com/P0bbn/550-Project into main
+p-uppal -- 046236b3 -- Mon Dec 14 23:52:21 2020 -0500 :  added last query. cleaned DC charts. everything in order. done with my pages-puneet
+ksve -- 8cf87479 -- Mon Dec 14 23:26:35 2020 -0500 :  Update formatting
+p-uppal -- 46b72de1 -- Mon Dec 14 22:53:31 2020 -0500 :  fixed about page title. ready for robby to fill it
+p-uppal -- ec8714c8 -- Mon Dec 14 22:52:14 2020 -0500 :  added chart to home. fixed about and source pages in back connections. finished Source page.
+p-uppal -- 04fd9afb -- Mon Dec 14 19:41:38 2020 -0500 :  working dynamic state chart. update to final doc
+p-uppal -- e6c20cd8 -- Mon Dec 14 18:48:05 2020 -0500 :  updated final report with pages, features, and some technical challenges
+p-uppal -- e47eaf15 -- Mon Dec 14 17:28:12 2020 -0500 :  added func for dc
+p-uppal -- f181bc82 -- Mon Dec 14 17:03:56 2020 -0500 :  finished counties, some query amends
+p-uppal -- b862973a -- Mon Dec 14 16:31:29 2020 -0500 :  some chart data and table to State
+Robby -- f9e43c0d -- Sun Dec 13 17:42:17 2020 -0600 :  Added query descriptions
+yoshao -- 4a7732bd -- Fri Dec 11 20:59:22 2020 -0500 :  Updated data pre-processing
+p-uppal -- 79076084 -- Wed Dec 9 19:07:28 2020 -0500 :  fixed name of query1 function
+ksve -- 10154392 -- Wed Dec 9 13:57:17 2020 -0500 :  Add data pre-processing
+p-uppal -- b4135976 -- Sat Dec 5 03:21:18 2020 -0500 :  adding working web app. but still incomplete. need to npm start in both server and client folder
+Robby -- f4d75a3d -- Fri Dec 4 11:12:53 2020 -0600 :  Add page framework
+ksve -- e0fc9c95 -- Thu Dec 3 16:29:05 2020 -0500 :  Minor changes
+ksve -- 7f0c9391 -- Thu Dec 3 13:32:21 2020 -0500 :  Update final report
+ksve -- 38bca864 -- Thu Dec 3 11:07:05 2020 -0500 :  Merge remote-tracking branch 'origin/main' into main
+ksve -- 29a1f5c0 -- Thu Dec 3 11:06:43 2020 -0500 :  Add final report, fix query 13
+GitHub -- 188587ba -- Tue Dec 1 19:01:05 2020 -0500 :  Add files via upload
+ksve -- e163c7a5 -- Fri Nov 27 07:53:15 2020 -0500 :  Update query 12
+ksve -- d4bd3332 -- Fri Nov 27 07:43:53 2020 -0500 :  Formatting
+ksve -- 291da5b8 -- Fri Nov 27 07:34:37 2020 -0500 :  Formatting
+ksve -- 63a9620c -- Fri Nov 27 07:27:13 2020 -0500 :  Update queries
+ksve -- a5f26670 -- Wed Nov 25 13:28:07 2020 -0500 :  Fix query 9
+ksve -- 9ff4628e -- Wed Nov 25 12:31:55 2020 -0500 :  Update .csv files
+ksve -- 76d05b85 -- Wed Nov 25 10:31:51 2020 -0500 :  Update queries after database update
+GitHub -- 378d9772 -- Tue Nov 24 17:24:04 2020 -0500 :  Data cleaning script
+ksve -- 37edfc8e -- Tue Nov 24 08:29:36 2020 -0500 :  Initial commit
+ksve -- a9dfe74f -- Tue Nov 10 21:50:32 2020 -0500 :  Initial commit
+GitHub -- 140a7793 -- Tue Nov 10 21:40:04 2020 -0500 :  Delete daily.csv
+GitHub -- 362fbe34 -- Tue Nov 10 21:40:03 2020 -0500 :  Delete acs2017_county_data.csv
+GitHub -- 28e060bf -- Tue Nov 10 21:40:01 2020 -0500 :  Delete USA_2020_Oct24.xlsx
+GitHub -- c4801d6b -- Tue Nov 10 21:39:59 2020 -0500 :  Delete 1033prog.csv
+GitHub -- 74b31a0f -- Tue Nov 10 21:37:12 2020 -0500 :  Create test
+GitHub -- a01ffd0f -- Tue Nov 10 21:36:55 2020 -0500 :  Delete data
+GitHub -- a8eabd65 -- Tue Nov 10 21:35:47 2020 -0500 :  Create data
+GitHub -- 1bc608b8 -- Wed Oct 28 14:42:05 2020 -0400 :  Add files via upload
+GitHub -- 27aef83d -- Tue Oct 27 18:38:42 2020 -0400 :  Add files via upload
+GitHub -- 9e1ecded -- Tue Oct 27 18:37:59 2020 -0400 :  Delete USA_2020_Oct10.xlsx
+GitHub -- c6722614 -- Tue Oct 13 20:38:02 2020 -0400 :  Delete USA_2020_Sep19.xlsx
+GitHub -- 7088ba07 -- Tue Oct 13 20:37:40 2020 -0400 :  Add files via upload
+GitHub -- 445394bf -- Tue Oct 13 19:51:24 2020 -0400 :  Add files via upload
+GitHub -- d070f60a -- Tue Oct 13 19:49:52 2020 -0400 :  Add files via upload
+GitHub -- c0152c55 -- Tue Oct 13 19:48:46 2020 -0400 :  Add files via upload
+GitHub -- 0aa2be6a -- Tue Oct 13 18:45:59 2020 -0500 :  Add files via upload

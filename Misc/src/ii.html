@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link  rel= "stylesheet" href="../src/bootstrap.css"/>
+      <title>1033 & 2020 || Unemployment</title>
+      <!--<script src="../Desktop/chart.js/dist/chart.min.js"></script>
+	  <script src="../Desktop/chart.js/utils.js"></script>-->
+     
+</head>
+<style>
+    body {
+        background-image: url("../images/ii_background.jpg");
+    }
+    canvas{
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+</style>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top mt-5">
+        <a href="#" class="navbar-brand">1033 & 2020</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="../src/home.html" class="nav-item nav-link">Home</a>
+                <a href="../src/county.html" class="nav-item nav-link ">County Level Data</a>
+                <a href="../src/state.html" class="nav-item nav-link">State Level Data</a>
+                <a href="../src/race.html" class="nav-item nav-link">Race</a>
+                <a href="../src/ii.html" class="nav-item nav-link active">Income Inequality</a>
+            </div>
+          </div>
+          </nav>
+    <div class = "text-center">
+        <h1 class= "display-1 font-weight-bold text-gray">Income Inequality</h1>
+    </div>
+    <div style="width:75%;">
+		<canvas id="canvas"></canvas>
+	</div>
+	<!--
+	<script>
+		var config = {
+			type: 'line',
+			data: {
+				labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+				datasets: [{
+					label: 'Unfilled',
+					fill: false,
+					backgroundColor: window.chartColors.blue,
+					borderColor: window.chartColors.blue,
+					data: [
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor()
+					],
+				}, {
+					label: 'Dashed',
+					fill: false,
+					backgroundColor: window.chartColors.green,
+					borderColor: window.chartColors.green,
+					borderDash: [5, 5],
+					data: [
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor()
+					],
+				}, {
+					label: 'Filled',
+					backgroundColor: window.chartColors.red,
+					borderColor: window.chartColors.red,
+					data: [
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor()
+					],
+					fill: true,
+				}]
+			},
+			options: {
+				responsive: true,
+				plugins: {
+					title: {
+						display: true,
+						text: 'Chart.js Line Chart'
+					},
+					tooltip: {
+						mode: 'index',
+						intersect: false,
+					}
+				},
+				hover: {
+					mode: 'nearest',
+					intersect: true
+				},
+				scales: {
+					x: {
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'Month'
+						}
+					},
+					y: {
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'Value'
+						}
+					}
+				}
+			}
+		};
+
+		window.onload = function() {
+			var ctx = document.getElementById('canvas').getContext('2d');
+			window.myLine = new Chart(ctx, config);
+		};
+	</script>-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
+
