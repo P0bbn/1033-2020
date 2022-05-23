@@ -107,7 +107,8 @@ civilians, 5 battles
 ## Authors
 
 
-Robby Ballard  P0bbn
-Yolanda Shao  yoshao
-Keith Svendsen ksve
-Puneet Uppal p-uppal
+
+* Robby Ballard  P0bbn
+* Yolanda Shao  yoshao
+* Keith Svendsen ksve
+* Puneet Uppal p-uppal
