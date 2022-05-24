@@ -6,7 +6,7 @@
 
 ## Description
 
-We are looking to foremost compare conflict and protest data this year in the US
+* We are looking to foremost compare conflict and protest data this year in the US
 with police data over the last two decades. Through the Department of Defense's
 Law Enforcement Support Office (LESO), local and state law enforcement agencies
 can request surplus military equipment through LESO’s 1033 Program. This
@@ -23,7 +23,10 @@ protesters in the same county. Users can search for the correlation between thes
 two factors, as well as demographic information for every county, such as racial
 makeup, income, unemployment, and education, for every county in the United
 States.
-## Overview
+![Tux, the Linux mascot](/img/Picture4.png)
+## 1033?
+![T](/img/Picture3.png)
+
 
 ### Dependencies
 
@@ -48,6 +51,7 @@ the protest and police data in the US.
 about the protest and police data in the US.
 
 ### Application Features
+![Screenshot](/img/Picture1.png)
 * Menu bar for navigation
 * Drop-down menu for users to select a state
 * Drop-down submenu populated with all of the counties in the user-selected
@@ -64,6 +68,7 @@ protest data
 ## Data
 
 ### Sources
+![Data Sources](/img/Picture2.png)
 * American Community Survey (ACS)
  - https://www.kaggle.com/muonneutrino/us-census-demographic-data
  - The ACS is an ongoing demographics survey conducted by the U.S. Census
