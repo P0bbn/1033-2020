@@ -99,7 +99,7 @@ civilians, 5 battles
 * Host cis550-proj.cl8t7peslmhx.us-east-1.rds.amazonaws.com
 * Port 3306
 * User guest
-* Password pT2&gS3@By
+* Password ***********
 * Primary Schema final_project
 
 
